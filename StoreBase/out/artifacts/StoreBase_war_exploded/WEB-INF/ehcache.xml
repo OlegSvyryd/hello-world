@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+    <defaultCache
+            eternal="true"
+            maxElementsInMemory="200"
+            overflowToDisk="false"
+            />
+
+    <cache
+            name="storesCache"
+            maxElementsInMemory="100"
+            eternal="true"
+            overflowToDisk="false"
+            />
+
+    <cache
+            name="companiesCache"
+            maxElementsInMemory="100"
+            eternal="true"
+            overflowToDisk="false"
+            />
+
+    <cache
+            name="storesGoodsCache"
+            maxElementsInMemory="200"
+            eternal="true"
+            overflowToDisk="false"
+            />
+
+    <cache
+            name="companiesGoodsCache"
+            maxElementsInMemory="200"
+            eternal="true"
+            overflowToDisk="false"
+            />
+</ehcache>
+

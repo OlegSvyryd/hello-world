@@ -1,0 +1,156 @@
+Div.registration,.login-form{
+    position: RELATIVE;
+    width:370px;
+    top: 100PX;
+}
+th{
+    float:left;
+}
+.login-form-footer{
+    margin-top:438px;
+}
+td,th{
+    border:0;
+}
+#registration h3{
+    color:#263238;
+    font-family: "garamond-premier-pro", serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+
+}
+
+.error{
+    color: red;
+    font-size:14px;
+    font-family:"Tahoma", sans-serif;
+    text-transform: none;
+}
+
+.login-form, #registration,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"],
+input[type="button"]{
+    font-weight:bold;
+    font-size:12px;
+    font-family:"Tahoma", sans-serif;
+    text-transform:uppercase;
+}
+input[type="checkbox"]{
+    vertical-align:middle;
+    margin-right:5px;
+}
+.login-form, #registration{
+    background: white;
+    height: 80%;
+    padding: 4px 40px;
+    font-size: 0.85em;
+}
+article h2{
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 13px;
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    border: 2px solid #263238;
+    font-size: 0.9em;
+    color: #A9A9A9;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    width: 300px;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    background-color: #f9f6f3;
+}
+#text-field1{
+    background: url('../Images/icons/user.png') 290px 11px;
+    background-repeat: no-repeat;
+}
+#text-field2{
+    background: url('../Images/icons/pass.png')  290px 10px;
+    background-repeat: no-repeat;
+}
+
+.tf1 {
+    background: url('../Images/icons/user.png') 290px 11px;
+    background-repeat: no-repeat;
+}.tf2{
+    background: url('../Images/icons/user.png')  290px 10px;
+    background-repeat: no-repeat;
+}.tf3{
+    background: url('../Images/icons/phone.png') 290px 10px;
+    background-repeat: no-repeat;
+}.tf4{
+    background: url('../Images/icons/email.png')  290px 10px;
+    background-repeat: no-repeat;
+}.tf5{
+    background: url('../Images/icons/pass.png')  290px 10px;
+    background-repeat: no-repeat;
+}
+
+input[type="checkbox"]{
+
+    margin-top: 6px;
+    margin-left: 3px;
+
+}
+
+.text-under-form{
+
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: -1px;
+    font-size: 0.9em;
+
+}
+
+.login-form .Ive-forgoten-password{
+    margin-left: 17px;
+    text-decoration: underline;
+}
+#registration .agree{
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+#registration .agree a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 15px 0;
+    width: 300px;
+    border: none;
+    background: #263238;
+    color: white;
+}
+
+#add_store_table{
+    border-collapse: collapse;
+}
+
+td,th{
+    padding: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "garamond-premier-pro", serif;
+    color: #263238;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+footer{
+    margin-top: 150PX;
+    margin-right: -0px;
+}
