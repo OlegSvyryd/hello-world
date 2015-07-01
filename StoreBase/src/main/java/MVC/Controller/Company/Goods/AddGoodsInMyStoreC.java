@@ -75,14 +75,13 @@ public class AddGoodsInMyStoreC {
         storeCatalog.setCompanyName(companyCatalog.getCompany().getName());
         storeCatalog.setGoodsType(companyCatalog.getGoodsType().getName());
 
-/*
+
         Mailing mailing = new Mailing();
         mailing.setMailSender(javaMailSender);
         mailing.sendMail("robannnnn@gmail.com",
                 companyCatalog.getCompany().getUsers().getEmail(),
                 "StoreBase: Користувач зберіг ваш товар",
                 "Вітаю! Ваш товар(" + companyCatalog.getName() + ") було додано користувачем '" + WelcomeC.username + "' в свій магазин(" + store.getName() + ").");
-*/
 
                 storeCatalogService.insert(storeCatalog);
         return "success";
