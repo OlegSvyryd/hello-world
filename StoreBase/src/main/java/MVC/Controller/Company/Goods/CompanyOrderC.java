@@ -79,7 +79,6 @@ public class CompanyOrderC {
             companyCatalogService.update(companyCatalog);
 
 
-/*
             Mailing mailing = new Mailing();
             mailing.setMailSender(javaMailSender);
 
@@ -87,7 +86,7 @@ public class CompanyOrderC {
                     email,
                     "StoreBase: Замовлення підтверджено!",
                     "Ваше замовлення (товар - '" + goods + "' з магазина '" + store + "', кількість: '" + orders.getAmount() + "') було розглянуто та підтвердженно, виконується доставка.");
-*/
+
             return "success";
         }
     }
