@@ -78,7 +78,6 @@ public class CompanyOrderC {
             companyCatalog.setAmount(companyCatalog.getAmount() - orders.getAmount());
             companyCatalogService.update(companyCatalog);
 
-
             Mailing mailing = new Mailing();
             mailing.setMailSender(javaMailSender);
 
