@@ -103,7 +103,6 @@ public class CompanyOrderC {
         orders.setConfirm(-1);
         ordersService.update(orders);
 
-/*
         Mailing mailing = new Mailing();
         mailing.setMailSender(javaMailSender);
 
@@ -111,7 +110,6 @@ public class CompanyOrderC {
                 email,
                 "StoreBase: Замовлення скасовано!",
                 "Ваше замовлення (товар - '" + goods + "' з магазина '" + store + "', кількість: '" + orders.getAmount() + "') було розглянуто та скасовано, зверніться, будь ласка, до власника магазина.");
-*/
 
         return "success";
     }
