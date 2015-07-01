@@ -151,7 +151,6 @@ public class CompanyOrderC {
         storeCatalog.setAmount((storeCatalog.getAmount() + order.getAmount()));
         storeCatalogService.update(storeCatalog);
 
-/*
         Mailing mailing = new Mailing();
         mailing.setMailSender(javaMailSender);
 
@@ -159,7 +158,6 @@ public class CompanyOrderC {
                 email,
                 "StoreBase: Замовлення доставлено!",
                 "Ваше замовлення (товар - '" + goods + "' з магазина '" + store + "', кількість: '" + order.getAmount() + "') було доставлено, дякуємо за замовлення!.");
-*/
 
         return "success";
     }
