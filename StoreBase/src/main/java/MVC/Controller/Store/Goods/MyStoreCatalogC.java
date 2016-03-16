@@ -2,27 +2,21 @@ package MVC.Controller.Store.Goods;
 
 import MVC.Controller.WelcomeC;
 import MVC.Model.Entity.Company.Goods.CompanyCatalog;
-import MVC.Model.Entity.Report.Mailing;
 import MVC.Model.Entity.Report.Orders;
 import MVC.Model.Entity.Store.Goods.StoreCatalog;
 import MVC.Model.Service.Company.Goods.ICompanyCatalogService;
 import MVC.Model.Service.Report.IOrdersService;
 import MVC.Model.Service.Store.Goods.IStoreCatalogService;
 import MVC.Model.Service.Store.IStoreService;
-import com.sun.org.apache.xml.internal.resolver.Catalog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.swing.*;
 import javax.validation.Valid;
-import java.math.BigDecimal;
 import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 /**
  * Created by oleg on 26.05.2015.

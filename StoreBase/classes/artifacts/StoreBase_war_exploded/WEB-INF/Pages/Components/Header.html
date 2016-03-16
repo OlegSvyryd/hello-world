@@ -1,0 +1,18 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+
+<!-- Header -->
+<header>
+    <div>
+        <spun class = "back" onclick="window.location.reload(history.go(-1));">Назад</spun>
+        <!--<spun class = "back" onclick="location.href = document.referrer; return false;">Назад</spun>-->
+        <spun class = 'logo'>StoreBase</spun>
+        <spun class = 'content'>
+            <ul>
+                <li>${username}</li>
+                |
+                <li onclick="document.location.href='main'">На головну</li>
+                <li style="margin-left:10px;"><a href="${logoutUrl}">Вихід</a></li>
+            </ul>
+        </spun>
+    </div>
+</header>
